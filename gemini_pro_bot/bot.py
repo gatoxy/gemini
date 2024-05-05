@@ -21,7 +21,7 @@ load_dotenv()
 def start_bot() -> None:
     """Start the bot."""
     # Create the Application and pass it your bot's token.
-    application = Application.builder().token(os.getenv("6257702674:AAGjdj_HWk3686TlvpWa-phaCwj6J8q0z98")).build()
+    application = Application.builder().token(os.getenv("6246048342:AAEfUGZnJbb3jypRSX_k7HWKtWmZNJTXEGw")).build()
 
     # on different commands - answer in Telegram
     application.add_handler(CommandHandler("start", start, filters=AuthFilter))
